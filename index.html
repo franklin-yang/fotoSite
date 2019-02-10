@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+  crossorigin="anonymous"></script>
+
+    </head>
+    <title>franklinFoto</title>
+    <body style = "background-color: white">
+        <Main>
+            <a href="gallery.html">
+                <div id ="greeting">
+                        <h1>welcome</h1>
+                </div>
+            </a>
+            <div class="wrapPortSelect">
+                <div class="split event">
+                    <h2>Events</h2>
+                    <img src="https://lh3.googleusercontent.com/OT0B3P_0UE3TnawZGPtvOBtzclzYb5uoIVG7skduzbXEEtlZZ4_coVWItn2KLMvyrDK5Zu7eplrlpcmVOv1IvQHO_SdSXw0nDiItl5B4LV74mPg0Hj83ZlRbPOFZZ4f_22UPrbf3sEuLz7hhVcjEVE6fwamL90_ZkP61COK0GUPBLP05CLrchzsEllLKO3J4yamztunSQqCUXZNK97BjxpbPXxzUzO7vdNZgUcuQ6dkqSkU1i9Y_m5r-8KF8h8UwpEXZPHk5ZzVyZUHEwEXi-ysmBIX1Ax6m_v3xFtPXP3Hek4T0t18--1KrapVq8Q5JxfkjVd-UwJLNacwX9sJDqdrQ0RE8v-FtuCVVG7iucRGEF_lngV8uoBmxAFziH_gnpz_yEPyQMvjaWcw_tNRB0wmXbvemQnhj4qXL4e9neT_cuLxzt2xlAGLdFiayTRDxvvAl7ewuNe9luptrP2Yb_dxPyOhz9E9atFT2ukcrrAuZ2NVmNhNQ_jCH_NHuTHTp9PtXWBFIVwpkbN75WC976ExKTaWrc9TPii8Ng6_UVVN7D3U5hETbdlG39I53TcTIVXDlwEjxLDm5B3GTbCuu6R-pJuBTnUenF-5qQzc9hj0NWHb3_LeN-MRrvCAs24IbmJrcD_8lEGW0YUm_NAALs0aBq2YEZUtcTg=w958-h775-no" alt="some taekwondo" class="openingPic" style="object-fit: cover;">
+                </div>
+                <div class="split portrait">
+                    <h2>Portraits</h2>
+                    <img src="https://lh3.googleusercontent.com/2lGvz_lKy62W9Cm82Upif6uCaJSNWyOQuyaWgvKCulcfful7C2tBjXBvdfmvEfWHUMAMARPv7Zv89APeT38teC8vuXQWUrdmJ9I0mzL1P5hMboP2JkJUy78hu5siAAPwRfyjPCGP4hdkqkm3xZ1HmMrug90VhYN9LERRDdcnXgWXZt9gQf70_CtYGkwsvRDHCnwIuL5CUBG9Znr4au-Lxwvvek_LS2SYBfQkHPUPtcOVHMvFMTnc6UXbnKT9_e1yXhQU267XS1f7LFoYBvSWJWcYPhYre4t1pSNPRqkxExsmXgwNR5ePMNVFYw9E6uAonD_PbFWlcaX1mj9CNszQvttFFsbRptRAKtKQE-G0Ce5Qqi0VPGlS7pXy43p3eBPj-tvQJydUHankpZx-yHLrZ9pl5EOFjJNCz5ak1EwOi6QOlGytp769DgLGRH-UFMQM8TGfJufybKoU0OvLzkoLh8NkWMXBNketPv5UzKeYL523FTQam-U1th2nk7FrdlJ0hU-ExY2v5cJpRpv8FAZ-wIHavToCrudxcL1xGCMPrzGo37dp6ABOXt9qe5mQ0znqxI6Sn0M3BwBghpQ4B2o0praVJP54M-XmNHW8hwJU_n5CE74gfCejMcnRbF_Sf6YCpL7eysU2H4dgnwuAsF4k37hrv9yzAp7EuQ=w688-h1031-no" alt="some portrait" class="openingPic" style="object-fit:cover;">
+                </div>
+            </div>
+    </Main>
+         <script>
+            // var selectionMade = false;
+            // function loadNext() {
+            //     var getGalleryXHR = new XMLHttpRequest();
+            //     getGalleryXHR.open('GET','http://localhost:8000/gallery.html');
+            //     getGalleryXHR.onload = function(){
+            //         console.log(getGalleryXHR.responseText);
+            //     }
+            //     getGalleryXHR.send();
+            // }
+            // $(function(){
+            //     $("h2").mouseover(function(){
+            //         if(!selectionMade){
+            //             $(this).animate({fontSize:"100px"});
+            //             $(this).clearQueue();
+            //         }
+            //     });
+            //     $("h2").mouseleave(function(){
+            //         if(!selectionMade){
+            //             $(this).animate({fontSize:"75px"});
+            //             $(this).clearQueue();
+            //         }
+            //     });
+            //     $(".split").click(function(){
+            //         if(!selectionMade){
+            //             selectionMade = true;
+            //             // console.log($(this).find("img"));
+            //             $("div").animate({backgroundColor:"white"},500);
+            //             $(this).find("img").animate({'opacity':0},1000);
+            //             $(this).find("h2").animate({color:"black"});
+            //             $(this).animate({width:"100%"},500,"swing");
+            //             $(this).siblings().filter(".split").animate({width:"0%"},500,"swing", function(){
+            //                 // $(this).load("portraitLanding.html");
+            //                 loadNext();
+            //                 alert();
+            //             });
+            //         }
+            //     });
+            // });
+            
+    </script>
+    </body>
+    
+   
+</html>

@@ -1,0 +1,163 @@
+body{
+	font-family: Barlow;
+	height: 100%;
+}
+
+html{
+	height: 100%;
+}
+
+#backBtn{
+	height: 15px;
+	width: 15px;
+	display: inline;
+	margin-top: 15px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+
+}
+
+a{
+	color: #000000;
+}
+
+a:link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h2{
+	display: block;
+	color: #000000;
+	font-family: Barlow;
+	margin: 0;
+	margin-top: 12px;
+	margin-left: 2.5%;
+}
+
+h3{
+
+	margin: 0;
+	margin-left: 2.5%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapView {
+	display: flex;
+	height: 92.5%;
+	flex-direction: column;
+}
+
+.portShot {
+	height: 97.5%;
+	width: 100%;
+	object-fit: contain;
+	margin-top:1.5%;
+	margin-bottom: 1%;
+	display: inline-block;
+	z-index: 1;
+	position: relative;
+	opacity: 0;
+}
+
+.portShotPreview{
+	display: inline-block;
+	height: 97.5%;
+	width: 100%;	
+	margin-left: -100%;
+	filter: blur(2vw);
+	object-fit: contain;
+	margin-top:1.5%;
+	margin-bottom: 1%;
+}
+
+.leftBar {
+	background-color: #ffffff;
+	height: 7.5%;
+	width: 100%;
+	margin: 0;
+	display: inline-block;
+	align-self: top;
+	flex-basis: 300px;
+}
+
+.backToGrid:hover {
+	border-style: solid;
+}
+
+.rightBar {
+	height: 2.5%;
+	width: 100%;
+	flex-basis: 300px;
+	background-color:white;
+}
+
+.portShotContainer {
+	font-size: 0;
+	vertical-align: top
+	border-color: red;
+	background-color: #ffffff;
+	display: inline-block;
+	height:80%;
+	width:95%;
+	margin: auto;
+	white-space: nowrap;
+}
+
+
+.wrapCarousel {
+	align-content: center;
+	height: 5%;
+	opacity: 0;
+	width: 100%;
+}
+
+.bottomBar {
+	white-space: nowrap;
+	font-size: 0;
+	height: 100%;
+	width: 25%;
+	overflow: hidden;
+	/*background-color: blue;*/
+	margin: auto;
+}
+
+#t1{
+	/*margin-left: 50%;*/
+}
+
+
+.wrapThumbs{
+	height: 100%;
+}
+
+.thumbnail{
+	height: 100%;
+	opacity:0.5;
+	object-fit: contain;
+
+}
+
+.wrapCurrent{
+	overflow: visible;
+	overflow-y: visible;
+	height: 100%;
+}

@@ -1,0 +1,70 @@
+@keyframes fadeCoverImagesIn {
+    from {opacity:0}
+    to {opacity:0.8}
+}
+@keyframes zoomLabel {
+    from {font-size:75px}
+    to {font-size:100px}
+}
+
+#greeting{
+    height: 343px;
+    width: 100%;
+    background-color:white;
+    display: block;
+    letter-spacing: 3px;
+}
+
+.wrapPortSelect{
+    display: flex;
+    white-space: nowrap;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+}
+
+h2{
+    display: block;
+}
+
+.split{
+    height:100%;
+    width:100%;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.openingPic{
+    flex: 1;
+    display: block;
+    height: 100%;
+    -webkit-animation-name: fadeCoverImagesIn;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-direction: normal;
+    opacity:0.8;
+    object-fit: cover;
+}
+
+/*.event{
+    left:0;
+}*/
+
+h1{
+    z-index:1;
+    font-family:'Barlow';
+    margin: 0px;
+    text-transform: lowercase;
+    text-align:left;
+    color:black;
+    font-size:150px;
+    /*padding: 25%;*/
+}
+
+/*.portrait{
+    right:0;
+}
+*/
